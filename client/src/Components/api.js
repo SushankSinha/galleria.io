@@ -6,7 +6,7 @@ const instance = axios.create({
   typ : 'jwt',
   withCredentials : true,
   secure : true,
-  baseURL: 'http://localhost:7500'
+  baseURL: 'https://galleria-server-tfl8.onrender.com'
 });
 
 const token = Cookies.get('token');
